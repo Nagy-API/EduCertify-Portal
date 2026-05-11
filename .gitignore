@@ -1,0 +1,25 @@
+# Java / Maven
+target/
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database local files
+*.mdf
+*.ldf
+
+# Temporary files
+*.tmp
