@@ -1,25 +1,33 @@
-# Java / Maven
+# Maven and generated output
 target/
+build/
+out/
 *.class
 
-# IDE files
+# IDE and local tooling
 .idea/
 *.iml
 .vscode/
 .settings/
 .project
 .classpath
+.github/java-upgrade/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local.properties
+application.properties
+
+# Local database files, logs, and temporary files
+*.mdf
+*.ldf
+*.log
+*.tmp
+*.bak
+screenshots-private/
 
 # OS files
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# Database local files
-*.mdf
-*.ldf
-
-# Temporary files
-*.tmp
